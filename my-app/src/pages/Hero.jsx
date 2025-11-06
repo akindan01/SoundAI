@@ -174,7 +174,7 @@ function Hero() {
               <motion.button
               whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(255,255,255,0.3)" }}
               whileTap={{ scale: 0.95 }}
-               className="bg-white text-black px-6 py-3 font-medium hover:bg-gray-800 hover:text-white transition duration-300">
+               className="bg-white text-black px-6 py-3 font-medium hover:bg-gray-800 hover:text-white transition duration-300 ease-in-out">
                 See how it works
               </motion.button>
 
