@@ -204,7 +204,7 @@ function Hero() {
   whileInView={{ opacity: 1, scale: 1 }}
   viewport={{ once: true, amount: 0.3 }}
   transition={{ duration: 1, ease: "easeOut" }}
-  className="h-screen px-8 lg:px-16 pb-8 bg-[length:150%] sm:bg-[length:130%] md:bg-cover bg-center bg-no-repeat"
+  className="h-[40vh] sm:h-[80vh] md:h-screen px-6 sm:px-8 lg:px-16 pb-8 bg-[length:150%] sm:bg-[length:130%] md:bg-cover bg-center bg-no-repeat"
   style={{ backgroundImage: "url('/sound.jpg')" }}
 >
 </motion.section>
