@@ -181,7 +181,7 @@ function Hero() {
               <motion.div 
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="relative inline-block group md:mt-3">
+              className="relative inline-block group mt-3 md:mt-0">
            <button
             className="relative bg-gradient-to-b from-black to-gray-800 text-white px-6 py-3 font-medium 
                rounded-sm flex items-center gap-2 transition duration-300 ease-in-out
